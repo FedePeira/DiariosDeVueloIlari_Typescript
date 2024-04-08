@@ -1,0 +1,25 @@
+{
+  "name": "diariosdevueloilari_typescript",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000D\u0000i\u0000a\u0000r\u0000i\u0000o\u0000s\u0000D\u0000e\u0000V\u0000u\u0000e\u0000l\u0000o\u0000I\u0000l\u0000a\u0000r\u0000i\u0000_\u0000T\u0000y\u0000p\u0000e\u0000s\u0000c\u0000r\u0000i\u0000p\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev index.ts",
+    "lint": "eslint --ext .ts .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Federico Peirano",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "eslint": "^8.57.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
